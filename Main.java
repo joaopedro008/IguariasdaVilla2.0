@@ -11,9 +11,25 @@ public class Main {
         Prato prato1 = new Prato("Hambúrguer", "Pão, carne, queijo, alface, tomate", 15.99, true);
         Prato prato2 = new Prato("Pizza", "Massa, molho, queijo, presunto, tomate", 25.99, true);
         Prato prato3 = new Prato("Parmegiana", "Frango, queijo, molho, arroz, batata frita", 45.00, true);
+        Prato prato4 = new Prato("Sushi", "Arroz, peixe cru, nori, legumes", 32.50, false);
+        Prato prato5 = new Prato("Lasanha", "Massa, molho, queijo, carne moída, presunto", 28.50, true);
+        Prato prato6 = new Prato("Salada Caesar", "Alface, croutons, parmesão, molho caesar", 18.00, true);
+        Prato prato7 = new Prato("Risoto de Cogumelos", "Arroz, cogumelos, caldo, queijo parmesão", 36.00, true);
+        Prato prato8 = new Prato("Macarrão à Bolonhesa", "Macarrão, molho de tomate, carne moída", 22.50, true);
+        Prato prato9 = new Prato("Frango Grelhado", "Peito de frango, temperos, salada", 19.99, false);
+        Prato prato10 = new Prato("Fish and Chips", "Peixe empanado, batatas fritas, molho tártaro", 24.50, true);
+
         cardapio.adicionarPrato(prato1);
         cardapio.adicionarPrato(prato2);
         cardapio.adicionarPrato(prato3);
+        cardapio.adicionarPrato(prato4);
+        cardapio.adicionarPrato(prato5);
+        cardapio.adicionarPrato(prato6);
+        cardapio.adicionarPrato(prato7);
+        cardapio.adicionarPrato(prato8);
+        cardapio.adicionarPrato(prato9);
+        cardapio.adicionarPrato(prato10);
+
 
         System.out.println("Cardápio:");
         cardapio.exibirCardapio();
