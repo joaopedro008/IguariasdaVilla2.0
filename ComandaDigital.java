@@ -26,7 +26,7 @@ public class ComandaDigital {
     public void atualizarStatusPedido(int numeroPedido, String novoStatus) {
         if (numeroPedido > 0 && numeroPedido <= pedidos.size()) {
             Pedido pedido = pedidos.get(numeroPedido - 1);
-            // Lógica para atualizar o status do pedido
+
             System.out.println("Status do pedido " + numeroPedido + " atualizado para: " + novoStatus);
         } else {
             System.out.println("Pedido não encontrado");

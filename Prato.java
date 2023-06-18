@@ -31,7 +31,7 @@ public class Prato {
         return disponivel;
     }
 
-    // Setters
+
     public void setNome(String nome) {
         this.nome = nome;
     }
